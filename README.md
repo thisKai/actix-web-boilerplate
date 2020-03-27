@@ -1,4 +1,5 @@
-# Rust web app boilerplate with actix web 2.0
+# [Rust](https://www.rust-lang.org) web app template with [actix web 2.0](https://actix.rs)
+
 ## Usage
 Use [cargo generate](https://github.com/ashleygwilliams/cargo-generate) to clone this template:
 ```bash
