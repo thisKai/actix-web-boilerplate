@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-
-heroku create --buildpack emk/rust
