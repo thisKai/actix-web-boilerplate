@@ -21,13 +21,13 @@ async fn main() -> std::io::Result<()> {
 
             println!("Restarting server on http://0.0.0.0:{}", port);
             server.listen(listener)?
-        },
+        }
         None => {
             let port = server_port();
 
             println!("Starting server on http://0.0.0.0:{}", port);
             server.bind(("0.0.0.0", port))?
-        },
+        }
     };
 
     server.run().await
