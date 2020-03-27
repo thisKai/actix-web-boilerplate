@@ -1,1 +1,1 @@
-web: ./target/release/actix-web-boilerplate
+web: ./target/release/{{project-name}}
