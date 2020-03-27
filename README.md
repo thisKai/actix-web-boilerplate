@@ -19,11 +19,7 @@ cargo install systemfd cargo-watch
 
 To run the development server:
 ```bash
-systemfd --no-pid -s http::$PORT -- cargo watch -x run
-```
-Or use the included bash script:
-```bash
-./dev
+cargo xtask dev
 ```
 
 ## Heroku
