@@ -1,4 +1,10 @@
 # Rust web app boilerplate with actix web 2.0
+## Usage
+Use [cargo generate](https://github.com/ashleygwilliams/cargo-generate) to clone this template:
+```bash
+cargo generate --git https://github.com/thisKai/actix-web-boilerplate.git --name my-project
+cd my-project
+```
 
 ## [Auto-Reloading Development Server](https://actix.rs/docs/autoreload/)
 
